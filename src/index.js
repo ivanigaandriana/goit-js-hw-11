@@ -47,6 +47,7 @@ async function eventHandler(e) {
         closeBtn.addEventListener('click', () => {
           gallery.innerHTML = '';
           closeBtn.style.display = 'none';
+          loadBtn.style.display = 'none';
         });
 
         if (page < totalPages) {
