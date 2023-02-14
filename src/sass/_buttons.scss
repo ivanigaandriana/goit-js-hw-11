@@ -2,7 +2,7 @@
   position: relative;
   height: 100%;
 
-  & .load-more,
+  .button,
   .close-btn {
     position: absolute;
     width: 40px;
@@ -18,10 +18,10 @@
       border: 1px solid #444;
     }
   }
-  & .load-more {
+   .button {
     bottom: 20px;
   }
-  & .close-btn {
+  .close-btn {
     bottom: 80px;
   }
 }
